@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ch-zn">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,20 @@
     <title>Mapless</title>
 </head>
 <body>
-    
-</body>
+<div id="app">
+    <div>
+        <input type="text" v-model="name">
+        <span>你的名字是{{name}}</span>
+    </div>
+    <div>
+        <input type="text" v-model="age">
+        <span>你的年龄是{{age}}</span>
+    </div>
+    <div>
+        <input type="text" v-model="sex">
+        <span v-show="sex">你的性别是{{sex}}</span>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/vue/2.5.17/vue.js"></script>    
+<script src="js/main.js"></script></body>
 </html>
