@@ -1,0 +1,40 @@
+body {
+    background: #444e49;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, body {
+    color: #c6c8bd;
+}
+
+.top-bar > * {
+    padding: 35px 0px 0px 60px;
+}
+
+.top-bar .header {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.top-bar .nav {
+    font-size: 25px;
+}
+
+.top-bar .nav a {
+    display: inline-block;
+    height: 40px;
+    margin-right: 15px;
+    font-weight: 350;
+}
+
+.top-bar .nav a:hover{
+    color: #b1ca76;
+}
+
+.content {
+    padding: 35px 0px 0px 60px;
+}
