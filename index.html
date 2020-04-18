@@ -11,18 +11,17 @@
 <body>
     <div class="top-bar">
         <div class="header">
-            VR & Mobile Game Developer
+            <span>🔝游戏开发者</span> <span class="smallTitle">日拱一卒</span>
         </div>
         <div class="nav">
-            <a href="#" class="item">HOME</a>
-            <a href="#" class="item">PROJECT</a>
-            <a href="#" class="item">ARTICLE</a>
-            <a href="#" class="item">CV</a>
-            <a href="#" class="item">LANG</a>
+            <a href="#" class="item">文章</a>
+            <a href="#" class="item">项目</a>
+            <a href="html/cv.html" class="item">简历</a>
+            <a href="#" class="item">语言</a>
         </div>
     </div>
     <div class="content">
-        <!-- <div id="app">
+        <div id="app">
             <div>
                 <input type="text" v-model="name">
                 <span>你的名字是{{name}}</span>
@@ -35,10 +34,14 @@
                 <input type="text" v-model="sex">
                 <span v-show="sex">你的性别是{{sex}}</span>
             </div>
-        </div> -->
+        </div>
     </div>
 
     <script src="https://cdn.bootcss.com/vue/2.5.17/vue.js"></script>    
+    <script src="node_modules/dat.gui/build/dat.gui.js"></script>
+    <script src="node_modules/three/build/three.js"></script>
+    <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/bkgThree.js"></script>
 </body>
 </html>
